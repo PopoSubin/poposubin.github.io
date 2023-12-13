@@ -1,0 +1,231 @@
+/* Student Name: ANASTAZIJA, SUBIN, HARUNA */
+
+
+/* General Styles */
+body {
+    background-color: #fff;
+    color: #CBC9AD;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ /* Navigation Bar Styles */
+ .navbar {
+    background-color: #656839;
+    /* border-color: #CBC9AD; */
+    border-radius: 0;
+ }
+ 
+ 
+ .navbar-nav > li > a {
+    color: #CBC9AD;
+    font-weight: bold;
+    transition: color 0.3s ease;
+ }
+ 
+ 
+ .navbar-nav > li > a:hover,
+ .navbar-nav > li.active > a {
+    color: #fff;
+    background-color: #CBC9AD;
+    border-radius: 5px;
+ }
+ 
+ /* Jumbotron Styles */
+ .jumbotron {
+    background: #CBC9AD;
+    color: #514B23;
+    padding: 40px;
+    /* border-radius: 10px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+ }
+ 
+ 
+ .jumbotron h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+ }
+ 
+ 
+ .jumbotron p {
+    font-size: 18px;
+ }
+ 
+ 
+ /* Panel Styles */
+ .panel {
+    border: 1px solid #CBC9AD;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+ }
+ 
+ 
+ .panel-heading,
+ .panel-footer {
+    background-color: #CBC9AD;
+    color: #514B23;
+    border: 1px solid #656839;
+ }
+ 
+ 
+ .panel-body img {
+    border-radius: 10px 10px 0 0;
+    max-width: 100%;
+    height: auto;
+ }
+ 
+ 
+ /* Footer Styles */
+ footer {
+    background-color: #CBD0B9;
+    color: #514B23;
+    padding: 25px;
+    border-top: 1px solid #656839;
+    text-align: center;
+ }
+ 
+ 
+ /* Map Styles */
+ iframe {
+    width: 80%;
+    height: 450px;
+    border: 2px solid #CBC9AD;
+    border-radius: 10px;
+    margin: 20px auto; /* Center the map */
+    display: block;
+ }
+ 
+ #logo {
+    max-width: 10%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+ 
+ /* Responsive Media Queries */
+ @media screen and (max-width: 768px) {
+    .jumbotron {
+        padding: 20px;
+    }
+ 
+ 
+    .panel {
+        margin-bottom: 20px;
+    }
+ 
+ 
+    .jumbotron h1 {
+        font-size: 32px;
+    }
+ 
+ 
+    .jumbotron p {
+        font-size: 16px;
+    }
+
+    #logo {
+        max-width: 10%;
+        height: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+ }
+ 
+ 
+ @media screen and (max-width: 480px) {
+    .jumbotron {
+        padding: 15px;
+        font-size: 18px;
+    }
+ 
+ 
+    .panel {
+        margin-bottom: 15px;
+    }
+ 
+ 
+    .jumbotron h1 {
+        font-size: 28px;
+    }
+ 
+ 
+    .jumbotron p {
+        font-size: 14px;
+    }
+ }
+
+ #logo {
+    max-width: 30%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.cost {
+    text-align: right;
+    padding-top: 2.5%;
+    padding-bottom: 5%
+}
+
+.panel-heading {
+    font-weight: bold;
+    color:#fff;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#img1 {
+    background-color: #656839;
+    border:none;
+}
+
+#img2 {
+    background-color: #656839;
+    border:none;
+}
+
+#img3 {
+    background-color: #656839;
+    border:none;
+}
+
+#img4 {
+    background-color: #656839;
+    border:none;
+}
+
+#img5 {
+    background-color: #656839;
+    border:none;
+}
+
+#img6 {
+    background-color: #656839;
+    border:none;
+}
+
+h1 {
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    font-style:italic;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    color:#656839;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+}
